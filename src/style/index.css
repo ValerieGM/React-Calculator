@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +15,7 @@ body {
   align-content: center;
 }
 
-.Calculator {
+.calculator {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -36,6 +35,15 @@ body {
 h1 {
   color: silver;
   font-size: 7vh;
+}
+
+.equation {
+  background-color: darkgray;
+  color: black;
+  height: 7vh;
+  width: 100%;
+  text-align: right;
+  font-size: 5vh;
 }
 
 .display {
@@ -61,7 +69,6 @@ h1 {
   text-align: center;
   text-decoration: none;
   outline: none;
-
   background-color: gainsboro;
   border: none;
   border-radius: 15px;
@@ -86,8 +93,4 @@ h1 {
 #add {
  background-color: skyblue;
  box-shadow: 0 7px steelblue;
-}
-
-a {
-  color: silver;
 }
